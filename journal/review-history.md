@@ -10,15 +10,20 @@
 | 2026-07-15 | 整理 admissible、partial correctness 和 total correctness；重写 Lemma 2。 | Git 提交 `96f351c`；[模型](../notes/problem-and-system-model.md)、[Lemma 2](../notes/initial-bivalence.md) |
 | 2026-07-15 | 补写 Lemma 3，分别处理两个事件属于不同进程和同一进程的情况。 | [阅读记录](reading-log.md)、[Lemma 3](../notes/critical-event-extension.md) |
 | 2026-07-18 | 补完第 379–380 页的无限执行构造，并把已有内容合为一篇完整 Review。 | [统一 Review](../REVIEW.md)、[无限执行](../notes/infinite-admissible-run.md) |
+| 2026-07-23 | 集中完成七项复查：主定理量词、Lemma 1、证明依赖、Lemma 2 的有限前缀、Lemma 3 的配置集合与同进程分支、轮内二价性、消息公平性；同时压缩主稿中的概括性措辞。 | [阅读记录](reading-log.md)、[量词与证明依赖](../notes/quantifiers-and-proof-map.md)、[交换引理](../notes/commutativity.md) |
+| 2026-07-23 | 补充 FLP 之后的三条边界线索：partial synchrony、随机化共识和 failure detector。 | [统一 Review](../REVIEW.md)、[相关研究边界](../notes/related-research-boundaries.md) |
+| 2026-07-24 | 把主稿改为可独立阅读的版本：删除正文中的仓库跳转和页码链接，补全 Lemma 3 的中间推导，并直接插入两张关键事件关系图和一张公平调度图。 | [统一 Review](../REVIEW.md) |
 
 ## 原文对应位置
 
 | 主稿内容 | 原论文印刷页 | 展开笔记 |
 | --- | --- | --- |
 | 问题、结论与模型 | 374–377 | [问题与系统模型](../notes/problem-and-system-model.md) |
+| Lemma 1 与证明依赖 | 377–378 | [交换引理](../notes/commutativity.md)、[量词与证明依赖](../notes/quantifiers-and-proof-map.md) |
 | 二价定义与 Lemma 2 | 378 | [初始二价配置](../notes/initial-bivalence.md) |
 | Lemma 3、图 2 和图 3 | 378–379 | [关键事件延后](../notes/critical-event-extension.md) |
 | 无限非决定执行 | 379–380 | [无限 admissible 非决定执行](../notes/infinite-admissible-run.md) |
+| 结论边界与后续研究 | DLS 1988、Ben-Or 1983、Chandra-Toueg 1996 | [相关研究边界](../notes/related-research-boundaries.md) |
 
 ## 来源说明
 
