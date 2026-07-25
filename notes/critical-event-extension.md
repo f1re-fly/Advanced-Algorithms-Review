@@ -20,10 +20,9 @@
 
 如果 e 和 e' 都属于进程 p，就不能用 Lemma 1 直接交换它们，因为同一进程的本地状态会被前一个事件改变。论文改用“让 p 暂停”的方法。
 
-从 C0 出发，让 `p` 不再执行，并公平安排其他进程和发给它们的消息，先得到一条 admissible run。主定理的反证假设认为协议在一个故障下 totally correct，所以这条 run 中最终会有进程决定；截取第一次决定以前的有限前缀，就得到一段不含 `p` 的 deciding schedule。
+从 C0 出发，让 `p` 不再执行，并公平安排其他进程和发给它们的消息，先得到一条 admissible run。主定理的反证假设认为协议在一个故障下 totally correct，所以这条 run 中最终会有进程决定；截取截至并包含首次决定步骤的有限前缀，就得到一段不含 `p` 的 deciding schedule。
 
 设这段不含 p 的 schedule 到达 A。由于 schedule 中的进程集合不含 p，而 e 和 e' 都属于 p，Lemma 1 可以把这段 schedule 分别与 e、e' 交换。于是从 A 后接 e，和从 A 后接 e' 再后接 e，可以得到分别对应 0-valent 与 1-valent 的配置。
 
 这说明 A 仍然是二价的。但 A 已经处在一条 deciding run 的末尾，已经有进程作出决定；在 partial correctness 下，包含决定值的可达配置不可能再二价。矛盾成立。
-
 

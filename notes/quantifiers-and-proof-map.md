@@ -5,7 +5,8 @@
 对任意满足 partial correctness 的确定性共识协议 `P`，都存在一个从 `P` 的某个初始配置出发的 admissible run `R`，使 `R` 中没有进程决定。
 
 ```text
-∀ P，∃ R：R admissible，并且 R 不决定。
+∀ P：若 P 确定且满足 partial correctness，
+     则 ∃ R：R admissible，并且 R 不决定。
 ```
 
 ## 反证中用了哪些假设

@@ -16,6 +16,7 @@
 - [关键事件延后（Lemma 3）](notes/critical-event-extension.md)
 - [无限 admissible 非决定执行](notes/infinite-admissible-run.md)
 - [相关研究边界：FLP 之后改变了什么](notes/related-research-boundaries.md)
+- [提交问题与模型边界](notes/commit-and-model-boundary.md)
 
 ## 原始材料与研究过程
 

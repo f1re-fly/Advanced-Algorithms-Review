@@ -13,6 +13,8 @@
 | 2026-07-23 | 集中完成七项复查：主定理量词、Lemma 1、证明依赖、Lemma 2 的有限前缀、Lemma 3 的配置集合与同进程分支、轮内二价性、消息公平性；同时压缩主稿中的概括性措辞。 | [阅读记录](reading-log.md)、[量词与证明依赖](../notes/quantifiers-and-proof-map.md)、[交换引理](../notes/commutativity.md) |
 | 2026-07-23 | 补充 FLP 之后的三条边界线索：partial synchrony、随机化共识和 failure detector。 | [统一 Review](../REVIEW.md)、[相关研究边界](../notes/related-research-boundaries.md) |
 | 2026-07-24 | 把主稿改为可独立阅读的版本：删除正文中的仓库跳转和页码链接，补全 Lemma 3 的中间推导，并直接插入两张关键事件关系图和一张公平调度图。 | [统一 Review](../REVIEW.md) |
+| 2026-07-25 | 对照原文第 376–379 页复核证明前提：补回主定理符号化中遗漏的 partial correctness 条件，明确价分类依赖 total correctness 的反证假设，并澄清空接收与 deciding prefix 的边界。 | [统一 Review](../REVIEW.md)、[量词与证明依赖](../notes/quantifiers-and-proof-map.md)、[Lemma 2](../notes/initial-bivalence.md)、[Lemma 3](../notes/critical-event-extension.md) |
+| 2026-07-25 | 补充 commit 动机与系统模型边界，说明主证明针对抽象 consensus，而不是某个具体提交协议。 | [统一 Review](../REVIEW.md)、[提交问题与模型边界](../notes/commit-and-model-boundary.md) |
 
 ## 原文对应位置
 
@@ -23,7 +25,7 @@
 | 二价定义与 Lemma 2 | 378 | [初始二价配置](../notes/initial-bivalence.md) |
 | Lemma 3、图 2 和图 3 | 378–379 | [关键事件延后](../notes/critical-event-extension.md) |
 | 无限非决定执行 | 379–380 | [无限 admissible 非决定执行](../notes/infinite-admissible-run.md) |
-| 结论边界与后续研究 | DLS 1988、Ben-Or 1983、Chandra-Toueg 1996 | [相关研究边界](../notes/related-research-boundaries.md) |
+| 结论边界与后续研究 | FLP 引言与结论；DLS 1988、Ben-Or 1983、Chandra-Toueg 1996 | [提交问题与模型边界](../notes/commit-and-model-boundary.md)、[相关研究边界](../notes/related-research-boundaries.md) |
 
 ## 来源说明
 
