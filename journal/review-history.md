@@ -15,6 +15,7 @@
 | 2026-07-24 | 把主稿改为可独立阅读的版本：删除正文中的仓库跳转和页码链接，补全 Lemma 3 的中间推导，并直接插入两张关键事件关系图和一张公平调度图。 | [统一 Review](../REVIEW.md) |
 | 2026-07-25 | 对照原文第 376–379 页复核证明前提：补回主定理符号化中遗漏的 partial correctness 条件，明确价分类依赖 total correctness 的反证假设，并澄清空接收与 deciding prefix 的边界。 | [统一 Review](../REVIEW.md)、[量词与证明依赖](../notes/quantifiers-and-proof-map.md)、[Lemma 2](../notes/initial-bivalence.md)、[Lemma 3](../notes/critical-event-extension.md) |
 | 2026-07-25 | 补充 commit 动机与系统模型边界，说明主证明针对抽象 consensus，而不是某个具体提交协议。 | [统一 Review](../REVIEW.md)、[提交问题与模型边界](../notes/commit-and-model-boundary.md) |
+| 2026-07-28 | 完成最终校阅：逐页核对原文第 377–381 页，补入 Theorem 2 的 initially dead processes 正向对照、评述段和后续研究完整引文；随后按交稿风格删除图示，压缩模板化表达，并统一 README、范围与修订记录。 | [统一 Review](../REVIEW.md)、[正向对照](../notes/initially-dead-processes.md) |
 
 ## 原文对应位置
 
@@ -25,6 +26,7 @@
 | 二价定义与 Lemma 2 | 378 | [初始二价配置](../notes/initial-bivalence.md) |
 | Lemma 3、图 2 和图 3 | 378–379 | [关键事件延后](../notes/critical-event-extension.md) |
 | 无限非决定执行 | 379–380 | [无限 admissible 非决定执行](../notes/infinite-admissible-run.md) |
+| Initially dead processes 与 Theorem 2 | 380–381 | [初始即停止进程](../notes/initially-dead-processes.md) |
 | 结论边界与后续研究 | FLP 引言与结论；DLS 1988、Ben-Or 1983、Chandra-Toueg 1996 | [提交问题与模型边界](../notes/commit-and-model-boundary.md)、[相关研究边界](../notes/related-research-boundaries.md) |
 
 ## 来源说明

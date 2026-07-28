@@ -1,5 +1,13 @@
 # 阅读记录
 
+## 2026-07-28：最终校阅与正向对照
+
+逐页复核原文第 377–381 页，确认 event、admissible、partial correctness、total correctness 和 valence 的定义，以及 Lemma 2、Lemma 3 和无限轮转构造的关键步骤。最终版本按课程 review 的写作风格保留文字推导，删除图示和重复总结。
+
+原稿此前止于第 380 页的主定理证明，没有交代原文第 4 节的 Theorem 2。本次增加 [initially dead processes](../notes/initially-dead-processes.md) 的简短说明：严格多数进程初始存活且执行期间不再停止时，论文给出一个所有 nonfaulty processes 都能决定的协议。这一正向结果进一步限定了 FLP 的适用范围。
+
+最后补全 DLS partial synchrony、Ben-Or 随机化共识和 Chandra–Toueg failure detector 的正式引文，并同步更新主稿评述、范围、README 和修订记录。交稿前再次压缩模板化转折和中英术语堆叠，使正文更接近课程阅读后的独立表述。
+
 ## 2026-07-25：提交问题与模型边界
 
 先对照原文第 376–379 页复核了几个证明前提的小边界：主定理符号化要保留 partial correctness 条件；价分类覆盖全部可达配置，是在 total correctness 的反证假设下成立；Lemma 2 和 Lemma 3 里使用的 deciding schedule 应包含首次决定步骤；空接收即使缓冲区非空也仍然可用。这些澄清已经回写到主稿和相应证明笔记。

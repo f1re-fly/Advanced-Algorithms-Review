@@ -1,5 +1,7 @@
 # 相关研究边界：FLP 之后改变了什么
 
+## 增加时间结构：partial synchrony
+
 Dwork、Lynch、Stockmeyer 在 1988 年的 JACM 论文中提出 partial synchrony。它位于同步系统和完全异步系统之间：系统可能确实存在消息延迟上界和进程相对速度上界，但协议事先不知道这些上界；或者上界已知，但只保证在某个未知的全局稳定时间之后成立。
 
 这条路线没有反驳 FLP。FLP 的调度器可以永远把某些消息拖到任意晚，只要最后仍满足 admissibility；partial synchrony 则限制了这种“永远没有可用时间界”的能力。DLS 的做法可以理解为把安全性和终止性分开看：安全性要能抗住异步前缀，终止性则依赖系统后来进入足够稳定的阶段。
@@ -21,6 +23,8 @@ FLP 的结论边界可以概括为：只要保持完全异步、确定性、至�
 - partial synchrony 增加最终可用的时间结构；
 - randomized consensus 放弃确定性进展；
 - failure detectors 增加关于故障的最终稳定提示。
+
+## 参考文献
 
 - Cynthia Dwork, Nancy Lynch, and Larry Stockmeyer. “Consensus in the Presence of Partial Synchrony.” *Journal of the ACM* 35(2), 1988, 288-323. MIT PDF: <https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf>；DOI: <https://doi.org/10.1145/42282.42283>。
 - Michael Ben-Or. “Another Advantage of Free Choice: Completely Asynchronous Agreement Protocols.” PODC 1983 extended abstract, 27-30. HTML transcription with original PDF link: <https://ying-zhang.cn/dist/1983-ben-or.html>；DOI: <https://doi.org/10.1145/800221.806707>。
